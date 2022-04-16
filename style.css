@@ -6,7 +6,19 @@ html {
   background: url("./img/bg-new.png") no-repeat;
   background-size: cover;
   color: #fff;
+  overflow: hidden;
+  max-height: 800px;
 }
+#top-section .wrapper {
+  position: relative;
+}
+#top-section .wrapper img {
+  position: absolute;
+  width: 300px;
+  right: 0;
+  bottom: -300px;
+}
+
 .wrapper {
   width: 1000px;
   margin: 0 auto;
@@ -64,8 +76,7 @@ p.subslogan {
 #bottom-section {
   background-color: #f9731d;
   padding: 60px;
-  height: 100vh;
-}
+  }
 .card {
   float: left;
   margin: 0 15px;
